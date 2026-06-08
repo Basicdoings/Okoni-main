@@ -1,0 +1,24 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.spec.pt
+
+# Local runtime state
+okoni_config.json
+*.log
+*.pid
+
+# Downloaded models and caches
+model_cache/
+.cache/
+
+# Generated audio
+output*.wav
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,37 @@
+# Core AI - Loosened to allow qwen-tts to dictate versions
+torch>=2.1.0
+torchaudio>=2.1.0
+transformers>=4.37.0
+accelerate # Unpinned to allow qwen-tts to pick its specific version
+huggingface-hub>=0.20.0
+openai-whisper
+
+# Audio & Data
+soundfile>=0.12.0
+librosa
+scipy
+numpy
+pandas
+pydub
+
+# Utilities
+tiktoken
+einops
+transformers_stream_generator
+six
+
+# Server
+fastapi
+python-multipart
+uvicorn
+requests
+modal
+
+# GUI
+customtkinter==5.2.2  # Pinned to avoid version cycling check
+darkdetect
+packaging
+sounddevice
+
+# Model
+git+https://github.com/QwenLM/Qwen3-TTS.git
